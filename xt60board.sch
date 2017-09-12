@@ -1,0 +1,289 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:xt60
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 6100 5000 0    60   ~ 0
+GND
+Text Label 6100 5200 0    60   ~ 0
+VCC
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 59B716B4
+P 7950 5200
+F 0 "#FLG01" H 7950 5275 50  0001 C CNN
+F 1 "PWR_FLAG" H 7950 5350 50  0000 C CNN
+F 2 "" H 7950 5200 50  0001 C CNN
+F 3 "" H 7950 5200 50  0001 C CNN
+	1    7950 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 7700 4600
+Wire Wire Line
+	7700 4600 6950 4600
+Connection ~ 7350 4200
+Wire Wire Line
+	7350 4200 6950 4200
+Connection ~ 7700 5200
+Connection ~ 7350 5000
+Connection ~ 7700 2200
+Wire Wire Line
+	6950 2200 7700 2200
+Connection ~ 7700 2800
+Wire Wire Line
+	7700 2800 6950 2800
+Connection ~ 7700 3400
+Wire Wire Line
+	7700 3400 6950 3400
+Connection ~ 7700 4000
+Wire Wire Line
+	7700 4000 6950 4000
+Connection ~ 4700 4800
+Wire Wire Line
+	4700 4800 5500 4800
+Connection ~ 4700 4200
+Wire Wire Line
+	4700 4200 5500 4200
+Connection ~ 4700 3600
+Wire Wire Line
+	4700 3600 5500 3600
+Connection ~ 4700 3000
+Wire Wire Line
+	4700 3000 5500 3000
+Connection ~ 4700 2400
+Wire Wire Line
+	5500 2400 4700 2400
+Wire Wire Line
+	7700 1600 6950 1600
+Wire Wire Line
+	7700 1600 7700 5200
+Wire Wire Line
+	4700 5200 7950 5200
+Wire Wire Line
+	4700 1800 4700 5200
+Wire Wire Line
+	5500 1800 4700 1800
+Connection ~ 7350 4800
+Wire Wire Line
+	7350 4800 6950 4800
+Connection ~ 7350 3600
+Wire Wire Line
+	7350 3600 6950 3600
+Connection ~ 7350 3000
+Wire Wire Line
+	7350 3000 6950 3000
+Connection ~ 7350 2400
+Wire Wire Line
+	6950 2400 7350 2400
+Connection ~ 5050 4600
+Wire Wire Line
+	5050 4600 5500 4600
+Connection ~ 5050 4000
+Connection ~ 5050 3400
+Wire Wire Line
+	5050 3400 5500 3400
+Connection ~ 5050 2800
+Wire Wire Line
+	5050 2800 5500 2800
+Connection ~ 5050 2200
+Wire Wire Line
+	5500 2200 5050 2200
+Wire Wire Line
+	7350 1800 6950 1800
+Wire Wire Line
+	7350 1800 7350 5000
+Wire Wire Line
+	5050 5000 7500 5000
+Wire Wire Line
+	5050 1600 5050 5000
+Wire Wire Line
+	5500 1600 5050 1600
+Wire Wire Line
+	5500 4000 5050 4000
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 59B71BCB
+P 7500 5000
+F 0 "#FLG02" H 7500 5075 50  0001 C CNN
+F 1 "PWR_FLAG" H 7500 5150 50  0000 C CNN
+F 2 "" H 7500 5000 50  0001 C CNN
+F 3 "" H 7500 5000 50  0001 C CNN
+	1    7500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L XT60 J1
+U 1 1 59B71E9F
+P 5800 1700
+F 0 "J1" H 5800 1950 60  0000 C CNN
+F 1 "XT60" H 5800 1500 60  0000 C CNN
+F 2 "xt60board:XT60" H 5800 1700 60  0001 C CNN
+F 3 "" H 5800 1700 60  0001 C CNN
+	1    5800 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L XT60 J2
+U 1 1 59B71F8A
+P 5800 2300
+F 0 "J2" H 5800 2550 60  0000 C CNN
+F 1 "XT60" H 5800 2100 60  0000 C CNN
+F 2 "xt60board:XT60" H 5800 2300 60  0001 C CNN
+F 3 "" H 5800 2300 60  0001 C CNN
+	1    5800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L XT60 J3
+U 1 1 59B71FDB
+P 5800 2900
+F 0 "J3" H 5800 3150 60  0000 C CNN
+F 1 "XT60" H 5800 2700 60  0000 C CNN
+F 2 "xt60board:XT60" H 5800 2900 60  0001 C CNN
+F 3 "" H 5800 2900 60  0001 C CNN
+	1    5800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L XT60 J4
+U 1 1 59B72068
+P 5800 3500
+F 0 "J4" H 5800 3750 60  0000 C CNN
+F 1 "XT60" H 5800 3300 60  0000 C CNN
+F 2 "xt60board:XT60" H 5800 3500 60  0001 C CNN
+F 3 "" H 5800 3500 60  0001 C CNN
+	1    5800 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L XT60 J5
+U 1 1 59B720EB
+P 5800 4100
+F 0 "J5" H 5800 4350 60  0000 C CNN
+F 1 "XT60" H 5800 3900 60  0000 C CNN
+F 2 "xt60board:XT60" H 5800 4100 60  0001 C CNN
+F 3 "" H 5800 4100 60  0001 C CNN
+	1    5800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L XT60 J6
+U 1 1 59B72162
+P 5800 4700
+F 0 "J6" H 5800 4950 60  0000 C CNN
+F 1 "XT60" H 5800 4500 60  0000 C CNN
+F 2 "xt60board:XT60" H 5800 4700 60  0001 C CNN
+F 3 "" H 5800 4700 60  0001 C CNN
+	1    5800 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L XT60 J7
+U 1 1 59B721E7
+P 6650 1700
+F 0 "J7" H 6650 1950 60  0000 C CNN
+F 1 "XT60" H 6650 1500 60  0000 C CNN
+F 2 "xt60board:XT60" H 6650 1700 60  0001 C CNN
+F 3 "" H 6650 1700 60  0001 C CNN
+	1    6650 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L XT60 J8
+U 1 1 59B72363
+P 6650 2300
+F 0 "J8" H 6650 2550 60  0000 C CNN
+F 1 "XT60" H 6650 2100 60  0000 C CNN
+F 2 "xt60board:XT60" H 6650 2300 60  0001 C CNN
+F 3 "" H 6650 2300 60  0001 C CNN
+	1    6650 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L XT60 J9
+U 1 1 59B723D8
+P 6650 2900
+F 0 "J9" H 6650 3150 60  0000 C CNN
+F 1 "XT60" H 6650 2700 60  0000 C CNN
+F 2 "xt60board:XT60" H 6650 2900 60  0001 C CNN
+F 3 "" H 6650 2900 60  0001 C CNN
+	1    6650 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L XT60 J10
+U 1 1 59B72471
+P 6650 3500
+F 0 "J10" H 6650 3750 60  0000 C CNN
+F 1 "XT60" H 6650 3300 60  0000 C CNN
+F 2 "xt60board:XT60" H 6650 3500 60  0001 C CNN
+F 3 "" H 6650 3500 60  0001 C CNN
+	1    6650 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L XT60 J11
+U 1 1 59B72528
+P 6650 4100
+F 0 "J11" H 6650 4350 60  0000 C CNN
+F 1 "XT60" H 6650 3900 60  0000 C CNN
+F 2 "xt60board:XT60" H 6650 4100 60  0001 C CNN
+F 3 "" H 6650 4100 60  0001 C CNN
+	1    6650 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L XT60 J12
+U 1 1 59B725A3
+P 6650 4700
+F 0 "J12" H 6650 4950 60  0000 C CNN
+F 1 "XT60" H 6650 4500 60  0000 C CNN
+F 2 "xt60board:XT60" H 6650 4700 60  0001 C CNN
+F 3 "" H 6650 4700 60  0001 C CNN
+	1    6650 4700
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
